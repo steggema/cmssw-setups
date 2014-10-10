@@ -1,0 +1,13 @@
+python plot_H2TauTauDataMC_TauMu_All.py /data/steggema/Jul04TauMu/ tauMu_2012_cfg.py -H nJets -C 'Xcat_IncX && mt<30 && l1_decayMode==0 && Xcat_J0X' -a -b -N 'ZeroJet_LowMTDecayMode0'
+python plot_H2TauTauDataMC_TauMu_All.py /data/steggema/Jul04TauMu/ tauMu_2012_cfg.py -H nJets -C 'Xcat_IncX && mt<30 && l1_decayMode==1 && Xcat_J0X' -a -b -N 'ZeroJet_LowMTDecayMode1'
+python plot_H2TauTauDataMC_TauMu_All.py /data/steggema/Jul04TauMu/ tauMu_2012_cfg.py -H nJets -C 'Xcat_IncX && mt<30 && l1_decayMode==10 && Xcat_J0X' -a -b -N 'ZeroJet_LowMTDecayMode10'
+python plot_H2TauTauDataMC_TauMu_All.py /data/steggema/Jul04TauMu/ tauMu_2012_cfg.py -H nJets -C 'Xcat_IncX && mt>60 && l1_decayMode==0 && Xcat_J0X' -a -b -N 'ZeroJet_HighMTDecayMode0'
+python plot_H2TauTauDataMC_TauMu_All.py /data/steggema/Jul04TauMu/ tauMu_2012_cfg.py -H nJets -C 'Xcat_IncX && mt>60 && l1_decayMode==1 && Xcat_J0X' -a -b -N 'ZeroJet_HighMTDecayMode1'
+python plot_H2TauTauDataMC_TauMu_All.py /data/steggema/Jul04TauMu/ tauMu_2012_cfg.py -H nJets -C 'Xcat_IncX && mt>60 && l1_decayMode==10 && Xcat_J0X' -a -b -N 'ZeroJet_HighMTDecayMode10'
+
+python plot_H2TauTauDataMC_TauMu_All.py /data/steggema/Jul04TauMu/ tauMu_2012_cfg.py -H nJets -C 'Xcat_IncX && mt<30 && l1_decayMode==0 && Xcat_J1X' -a -b -N 'OneJet_LowMTDecayMode0'
+python plot_H2TauTauDataMC_TauMu_All.py /data/steggema/Jul04TauMu/ tauMu_2012_cfg.py -H nJets -C 'Xcat_IncX && mt<30 && l1_decayMode==1 && Xcat_J1X' -a -b -N 'OneJet_LowMTDecayMode1'
+python plot_H2TauTauDataMC_TauMu_All.py /data/steggema/Jul04TauMu/ tauMu_2012_cfg.py -H nJets -C 'Xcat_IncX && mt<30 && l1_decayMode==10 && Xcat_J1X' -a -b -N 'OneJet_LowMTDecayMode10'
+python plot_H2TauTauDataMC_TauMu_All.py /data/steggema/Jul04TauMu/ tauMu_2012_cfg.py -H nJets -C 'Xcat_IncX && mt>60 && l1_decayMode==0 && Xcat_J1X' -a -b -N 'OneJet_HighMTDecayMode0'
+python plot_H2TauTauDataMC_TauMu_All.py /data/steggema/Jul04TauMu/ tauMu_2012_cfg.py -H nJets -C 'Xcat_IncX && mt>60 && l1_decayMode==1 && Xcat_J1X' -a -b -N 'OneJet_HighMTDecayMode1'
+python plot_H2TauTauDataMC_TauMu_All.py /data/steggema/Jul04TauMu/ tauMu_2012_cfg.py -H nJets -C 'Xcat_IncX && mt>60 && l1_decayMode==10 && Xcat_J1X' -a -b -N 'OneJet_HighMTDecayMode10'

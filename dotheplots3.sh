@@ -1,0 +1,13 @@
+python plot_H2TauTauDataMC_TauMu_All.py /data/steggema/Jul04TauMu/ tauMu_2012_cfg.py -H nJets -C 'Xcat_Inc_AntiMuAntiTauIsoJanX && mt<30 && Xcat_J0X' -a -b -N 'ZeroJet_AntiMuAntiTauIsoLowMT'
+python plot_H2TauTauDataMC_TauMu_All.py /data/steggema/Jul04TauMu/ tauMu_2012_cfg.py -H nJets -C 'Xcat_Inc_AntiTauIsoJanX && mt<30 && Xcat_J0X' -a -b -N 'ZeroJet_AntiTauIsoLowMT'
+python plot_H2TauTauDataMC_TauMu_All.py /data/steggema/Jul04TauMu/ tauMu_2012_cfg.py -H nJets -C 'Xcat_Inc_AntiMuIsoJanX && mt<30 && Xcat_J0X' -a -b -N 'ZeroJet_AntiMuIsoLowMT'
+python plot_H2TauTauDataMC_TauMu_All.py /data/steggema/Jul04TauMu/ tauMu_2012_cfg.py -H nJets -C 'Xcat_Inc_AntiMuAntiTauIsoJanX && mt>60 && Xcat_J0X' -a -b -N 'ZeroJet_AntiMuAntiTauIsoHighMT'
+python plot_H2TauTauDataMC_TauMu_All.py /data/steggema/Jul04TauMu/ tauMu_2012_cfg.py -H nJets -C 'Xcat_Inc_AntiTauIsoJanX && mt>60 && Xcat_J0X' -a -b -N 'ZeroJet_AntiTauIsoHighMT'
+python plot_H2TauTauDataMC_TauMu_All.py /data/steggema/Jul04TauMu/ tauMu_2012_cfg.py -H nJets -C 'Xcat_Inc_AntiMuIsoJanX && mt>60 && Xcat_J0X' -a -b -N 'ZeroJet_AntiMuIsoHighMT'
+
+python plot_H2TauTauDataMC_TauMu_All.py /data/steggema/Jul04TauMu/ tauMu_2012_cfg.py -H nJets -C 'Xcat_Inc_AntiMuAntiTauIsoJanX && mt<30 && Xcat_J1X' -a -b -N 'OneJet_AntiMuAntiTauIsoLowMT'
+python plot_H2TauTauDataMC_TauMu_All.py /data/steggema/Jul04TauMu/ tauMu_2012_cfg.py -H nJets -C 'Xcat_Inc_AntiTauIsoJanX && mt<30 && Xcat_J1X' -a -b -N 'OneJet_AntiTauIsoLowMT'
+python plot_H2TauTauDataMC_TauMu_All.py /data/steggema/Jul04TauMu/ tauMu_2012_cfg.py -H nJets -C 'Xcat_Inc_AntiMuIsoJanX && mt<30 && Xcat_J1X' -a -b -N 'OneJet_AntiMuIsoLowMT'
+python plot_H2TauTauDataMC_TauMu_All.py /data/steggema/Jul04TauMu/ tauMu_2012_cfg.py -H nJets -C 'Xcat_Inc_AntiMuAntiTauIsoJanX && mt>60 && Xcat_J1X' -a -b -N 'OneJet_AntiMuAntiTauIsoHighMT'
+python plot_H2TauTauDataMC_TauMu_All.py /data/steggema/Jul04TauMu/ tauMu_2012_cfg.py -H nJets -C 'Xcat_Inc_AntiTauIsoJanX && mt>60 && Xcat_J1X' -a -b -N 'OneJet_AntiTauIsoHighMT'
+python plot_H2TauTauDataMC_TauMu_All.py /data/steggema/Jul04TauMu/ tauMu_2012_cfg.py -H nJets -C 'Xcat_Inc_AntiMuIsoJanX && mt>60 && Xcat_J1X' -a -b -N 'OneJet_AntiMuIsoHighMT'

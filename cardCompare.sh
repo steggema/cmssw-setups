@@ -1,0 +1,1 @@
+python  src/CMGTools/RootTools/python/utils/fileComparator.py muTau.root  ~/CMSSW/CMSSW_6_1_1/src/auxiliaries/datacards/collected/Imperial/htt_mt.inputs-sm-8TeV-pf-embed.root  -1 Jan -2 Andrew -o JanAndrewPF -b
